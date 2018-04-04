@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/darkheader"
+    android:layout_height="50dp">
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:background="@drawable/x_search_bg"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/x_search_bg"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0.75"
+        android:layout_height="match_parent">
+
+
+    </LinearLayout>
+
+</LinearLayout>

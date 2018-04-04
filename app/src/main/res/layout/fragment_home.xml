@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/view_searchview_double"/>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:background="#F8F8F8"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/x_red_bg"
+                android:text="GET QUOTE"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="35dp" />
+            <Button
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/x_yellow_bg"
+                android:text="BOOK SERVICE"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="35dp" />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text="Popular Products"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:gravity="right"
+                        android:text="VIEW ALL"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginRight="5dp"
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:layout_gravity="right"
+                            android:background="@color/black"
+                            android:src="@drawable/edit"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:src="@drawable/bike"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp" />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:textSize="10dp"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
+                                android:text="Get Quote"
+                                android:background="@color/red"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="30dp" />
+
+                            <Button
+                                android:textSize="10dp"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
+                                android:text="Details"
+                                android:background="@color/darkheader"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="30dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        android:background="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:layout_gravity="right"
+                            android:background="@color/black"
+                            android:src="@drawable/edit"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp" />
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:src="@drawable/bike"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp" />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:textSize="10dp"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
+                                android:text="Get Quote"
+                                android:background="@color/red"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="30dp" />
+
+                            <Button
+                                android:textSize="10dp"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
+                                android:text="Details"
+                                android:background="@color/darkheader"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="30dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

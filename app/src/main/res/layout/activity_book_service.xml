@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="infobite.technology.info.eganacsi.activity.BookServiceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/darkheader"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Book Service"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Spinner
+            android:background="@drawable/x_book_et_border"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></Spinner>
+
+        <Spinner
+            android:layout_marginTop="10dp"
+            android:background="@drawable/x_book_et_border"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></Spinner>
+
+        <Spinner
+            android:layout_marginTop="10dp"
+            android:background="@drawable/x_book_et_border"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></Spinner>
+
+        <Spinner
+            android:layout_marginTop="10dp"
+            android:background="@drawable/x_book_et_border"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></Spinner>
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="Appointment time"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/x_book_et_border"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="Appointment Date"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/x_book_et_border"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <EditText
+            android:singleLine="true"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:hint="Your name"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/x_book_et_border"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <EditText
+            android:singleLine="true"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:hint="Your Phone Number"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/x_book_et_border"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <EditText
+            android:singleLine="true"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:hint="Your Email"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/x_book_et_border"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <EditText
+            android:singleLine="true"
+            android:paddingLeft="10dp"
+            android:gravity="start"
+            android:hint="Your Message"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/x_book_et_border"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+        <Button
+            android:textColor="@color/white"
+            android:background="#305975"
+            android:textAllCaps="false"
+            android:text="Submit"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
