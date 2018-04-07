@@ -8,4 +8,6 @@
     <color name="black">#000000</color>
     <color name="red">#CE5C5C</color>
     <color name="grey">#7c7878</color>
+    <color name="facebook">#3B5999</color>
+    <color name="gplus">#DE4B39</color>
 </resources>

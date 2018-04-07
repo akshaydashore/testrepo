@@ -50,16 +50,22 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="40dp"
+                    android:id="@+id/iv_reg_facebook"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
                     android:layout_margin="10dp"
-                    android:background="@color/darkheader" />
+                    android:background="@drawable/x_facebook"
+                    android:padding="5dp"
+                    android:src="@drawable/facebook" />
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="40dp"
+                    android:id="@+id/iv_reg_gplus"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
                     android:layout_margin="10dp"
-                    android:background="@color/darkheader" />
+                    android:background="@drawable/x_googleplus"
+                    android:padding="5dp"
+                    android:src="@drawable/gplus" />
 
             </LinearLayout>
 
@@ -75,6 +81,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/et_reg_fname"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="First Name"
@@ -87,19 +94,34 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/et_reg_lname"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Last Name"
                     android:singleLine="true" />
             </android.support.design.widget.TextInputLayout>
 
-
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:orientation="horizontal"
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/et_reg_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="E-mail"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:inputType="textPassword"
+                    android:id="@+id/et_reg_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Password"
@@ -108,17 +130,19 @@
             </android.support.design.widget.TextInputLayout>
 
             <TextView
-                android:textColor="@color/black"
-                android:text="* Password must be at least 8 character"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:text="* Password must be at least 8 character"
+                android:textColor="@color/black" />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
                 <EditText
+                    android:inputType="textPassword"
+                    android:id="@+id/et_reg_conf_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Confirm Password"
@@ -128,10 +152,13 @@
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
                 <EditText
+                    android:maxLength="15"
+                    android:inputType="number"
+                    android:id="@+id/et_reg_mobile"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Mobile Number"
@@ -140,9 +167,11 @@
             </android.support.design.widget.TextInputLayout>
 
             <Button
-                android:layout_marginTop="20dp"
+                android:id="@+id/bt_reg_signup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
                 android:background="@color/darkheader"
                 android:text="SIGN UP"
                 android:textColor="@color/white" />
