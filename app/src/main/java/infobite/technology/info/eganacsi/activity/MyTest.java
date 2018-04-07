@@ -15,6 +15,6 @@ public class MyTest extends AppCompatActivity{
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.e( "onCreate: ","test" );
+        Log.e( "onCreate: ","test1" );
     }
 }

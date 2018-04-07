@@ -14,10 +14,9 @@ import infobite.technology.info.eganacsi.R;
 /**
  * Created by kamlesh on 4/4/2018.
  */
-
 @SuppressLint("ValidFragment")
-public class HomeFragment extends Fragment
-{
+public class HomeFragment extends Fragment {
+
     View view;
     Context ctx;
 
@@ -32,4 +31,5 @@ public class HomeFragment extends Fragment
         view = inflater.inflate(R.layout.fragment_home,null);
         return view;
     }
+
 }

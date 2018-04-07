@@ -50,12 +50,14 @@
                 android:orientation="horizontal">
 
                 <ImageView
+                    android:id="@+id/gmail_image"
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:layout_margin="10dp"
                     android:background="@color/darkheader" />
 
                 <ImageView
+                    android:id="@+id/facebook_image"
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:layout_margin="10dp"
